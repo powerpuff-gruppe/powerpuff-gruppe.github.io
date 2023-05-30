@@ -85,6 +85,9 @@
 }
 
 
+.branding_heading {
+    text-align: center;
+}
 .colors__header {
     text-align: center;
 }
@@ -101,6 +104,7 @@
 .colors__square {
     width: 10rem;
     height: 10rem;
+    justify-self: center;
 }
 .--default-status {
     background-color: #339966;
@@ -137,6 +141,12 @@
 .--start-border {
     background-color: #2EB73C;
 }
+.--btn-primary {
+    background-color: #809996;
+}
+.--btn-border {
+    background-color: #4E6764;
+}
 
 .--primary-font {
     background-color: #282828;
@@ -148,6 +158,12 @@
 .--header-background {
     background-color: #496D69;
 }
+.--primary-color {
+    background-color: #282828;
+}
+.--secondary-color {
+    background-color: #fefefe;
+}
 
 .--error-message-status {
     background-color: #9F2B2C;
@@ -156,16 +172,3 @@
     background-color: #6D8A87;
 }
 
-.--btn-primary {
-    background-color: #809996;
-}
-.--btn-border {
-    background-color: #4E6764;
-}
-
-.--primary-color {
-    background-color: #282828;
-}
-.--secondary-color {
-    background-color: #fefefe;
-}
