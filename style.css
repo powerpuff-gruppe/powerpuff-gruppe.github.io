@@ -116,14 +116,15 @@ a {
 
 .branding_heading {
     text-align: center;
+    margin: 2rem;
 }
 .colors__header {
     text-align: center;
+    margin-top: 3rem;
 }
 .colors {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border-bottom: 1px solid gray;
     padding: 1rem;
 }
 .colors__info {
@@ -134,6 +135,7 @@ a {
     width: 10rem;
     height: 10rem;
     justify-self: center;
+    border: 1px solid gray;
 }
 .--default-status {
     background-color: #339966;
@@ -201,3 +203,10 @@ a {
     background-color: #6D8A87;
 }
 
+.branding_font {
+    text-align: center;
+}
+.branding_fontInfo {
+    text-align: center;
+    margin-bottom: 2rem;
+}
