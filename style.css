@@ -277,6 +277,8 @@ a {
     padding: 1.5rem;
     border-radius: 10px;
     border: none;
+    text-decoration: none;
+    color: black;
 }
 
 .info {
@@ -285,8 +287,6 @@ a {
 
 .info__header {
     padding-bottom: 5px;
-    text-decoration: none;
-    color: black;
 }
 
 .infoImg {
