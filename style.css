@@ -124,10 +124,13 @@ a {
 .branding_heading {
     text-align: center;
     margin: .5rem;
+    padding: .5rem;
+    background-color: rgb(73, 109, 105, 0.5);
 }
 .colors__header {
     text-align: center;
     margin-top: 1rem;
+    text-decoration: underline;
 }
 .colors {
     display: grid;
@@ -219,14 +222,11 @@ a {
 }
 .font__info {
     text-align: center;
-    margin-bottom: 2rem;
+    padding: .5rem;
 }
 .sizing__header {
     text-align: center;
     margin-top: 1rem;
-}
-.sizing {
-    padding: 1rem;
 }
 .sizing__info {
     text-align: center;
