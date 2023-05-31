@@ -25,7 +25,7 @@ a {
     text-decoration: none;
 }
 
-.header{
+.header {
     background-color: #496D69;
 }
 
@@ -59,16 +59,15 @@ a {
     gap: 2rem;
 }
 
-.nav-item {
-}
+.nav-item {}
 
-.nav-link{
+.nav-link {
     font-size: 1.6rem;
     font-weight: bold;
     color: #fefefe;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: orange;
 }
 
@@ -121,38 +120,46 @@ a {
 .subject {
     margin: 4rem;
 }
+
 .branding_heading {
     text-align: center;
     margin: .5rem;
     padding: .5rem;
     background-color: rgb(73, 109, 105, 0.5);
 }
+
 .colors__header {
     text-align: center;
     margin-top: 1rem;
     text-decoration: underline;
 }
+
 .colors {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 1rem;
 }
+
 .colors__info {
     text-align: center;
     padding: .5rem;
 }
+
 .colors__square {
     width: 10rem;
     height: 10rem;
     justify-self: center;
     border: 1px solid gray;
 }
+
 .--default-status {
     background-color: #339966;
 }
+
 .--warning-status {
     background-color: #E07400;
 }
+
 .--error-status {
     background-color: #9F2B2C;
 }
@@ -160,6 +167,7 @@ a {
 .--default-notice {
     background-color: #074B29;
 }
+
 .--warning-notice {
     background-color: #282828;
 }
@@ -167,24 +175,31 @@ a {
 .--inactive {
     background-color: #CBCBCB;
 }
+
 .--inactive-border {
     background-color: #ADADAD;
 }
+
 .--stop {
     background-color: #FB3F3F;
 }
+
 .--stop-border {
     background-color: #C31717;
 }
+
 .--start {
     background-color: #56DF64;
 }
+
 .--start-border {
     background-color: #2EB73C;
 }
+
 .--btn-primary {
     background-color: #809996;
 }
+
 .--btn-border {
     background-color: #4E6764;
 }
@@ -192,6 +207,7 @@ a {
 .--primary-font {
     background-color: #282828;
 }
+
 .--secondary-font {
     background-color: #fefefe;
 }
@@ -199,9 +215,11 @@ a {
 .--header-background {
     background-color: #496D69;
 }
+
 .--primary-color {
     background-color: #282828;
 }
+
 .--secondary-color {
     background-color: #fefefe;
 }
@@ -209,6 +227,7 @@ a {
 .--error-message-status {
     background-color: #9F2B2C;
 }
+
 .--error-steps {
     background-color: #6D8A87;
 }
@@ -216,19 +235,41 @@ a {
 .branding_font {
     text-align: center;
 }
+
 .font__header {
     text-align: center;
     margin-top: 1rem;
 }
+
 .font__info {
     text-align: center;
     padding: .5rem;
 }
+
 .sizing__header {
     text-align: center;
     margin-top: 1rem;
 }
+
 .sizing__info {
     text-align: center;
     padding: .5rem;
+}
+
+.headline {
+    padding-bottom: 20px;
+}
+
+.button {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.button__info {
+    background-color: #809996;
+    width: 15vh;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
 }
