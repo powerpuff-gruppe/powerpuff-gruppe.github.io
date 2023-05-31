@@ -255,6 +255,7 @@ a {
     text-align: center;
     padding: .5rem;
 }
+
 .properties__heading {
     margin-top: 1rem;
 }
@@ -296,5 +297,24 @@ button {
     padding: 1.5rem;
     border-radius: 10px;
     border: none;
+}
 
+.to-top {
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(245, 242, 242);
+    bottom: 20px;
+    right: 10px;
+
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+    border-radius: 10px;
+
+}
+
+html {
+    scroll-behavior: smooth;
 }
