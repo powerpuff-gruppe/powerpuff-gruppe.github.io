@@ -114,13 +114,16 @@ a {
 }
 
 
+.subject {
+    margin: 4rem;
+}
 .branding_heading {
     text-align: center;
-    margin: 2rem;
+    margin: .5rem;
 }
 .colors__header {
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 .colors {
     display: grid;
@@ -206,7 +209,22 @@ a {
 .branding_font {
     text-align: center;
 }
-.branding_fontInfo {
+.font__header {
+    text-align: center;
+    margin-top: 1rem;
+}
+.font__info {
     text-align: center;
     margin-bottom: 2rem;
+}
+.sizing__header {
+    text-align: center;
+    margin-top: 1rem;
+}
+.sizing {
+    padding: 1rem;
+}
+.sizing__info {
+    text-align: center;
+    padding: .5rem;
 }
