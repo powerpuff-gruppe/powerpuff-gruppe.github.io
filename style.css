@@ -255,6 +255,9 @@ a {
     text-align: center;
     padding: .5rem;
 }
+.properties__heading {
+    margin-top: 1rem;
+}
 
 .headline {
     padding-bottom: 20px;
