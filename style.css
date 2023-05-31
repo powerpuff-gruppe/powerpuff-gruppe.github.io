@@ -275,6 +275,10 @@ a {
     border: none;
 }
 
+.info {
+    padding-bottom: 150px;
+}
+
 .info__header {
     padding-bottom: 5px;
 }
