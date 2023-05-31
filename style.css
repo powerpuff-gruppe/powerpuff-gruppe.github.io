@@ -269,8 +269,8 @@ a {
 
 .button__info {
     background-color: #809996;
-    width: 15vh;
-    height: 30px;
+    width: calc((100%/2)-1rem);
+    padding: 1.5rem;
     border-radius: 10px;
     border: none;
 }
@@ -280,6 +280,5 @@ a {
 }
 
 .infoImg {
-    height: 30vh;
-    width: 40vh;
+    width: 100%;
 }
