@@ -118,8 +118,37 @@ a {
     .infoImg {
         width: 100%;
     }
+    
+    /* Branding */
+    .colors {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 1rem;
+    }
 }
 
+@media only screen and (min-width: 769px) {
+    .branding__colors {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+
+    .colors__header {
+        grid-column: span 2;
+    }
+
+    .colors__square {
+        width: 10rem;
+        height: 10rem;
+        justify-self: center;
+        border: 1px solid gray;
+    }
+    
+    .colors {
+        padding: 1rem;
+        display: grid;
+    }
+}
 
 .subject {
     margin: 4rem;
@@ -136,12 +165,6 @@ a {
     text-align: center;
     margin-top: 1rem;
     text-decoration: underline;
-}
-
-.colors {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 1rem;
 }
 
 .colors__info {
