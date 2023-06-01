@@ -148,6 +148,15 @@ a {
         padding: 1rem;
         display: grid;
     }
+
+    /* Forside */
+    .customer__productImg {
+        width: 50%;
+    }
+    
+    .us__img {
+        width: 75%;
+    }
 }
 
 /* Forside */
